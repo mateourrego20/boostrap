@@ -1,0 +1,70 @@
+
+.rt{
+  text-align: center;
+  font-size: 30px ;
+  font-weight: 500;
+}
+.hr{
+  text-align: center;
+  font-size: 100px ;
+}
+
+
+.st{
+
+  text-align: center;
+ font-size: 100px ;
+  font-weight: 700;
+
+}
+
+button{+
+  transition:  0.3s ;
+  background-color: rgb(59, 179, 89);
+}
+
+header {
+color: black;
+background-color: rgb(123, 134, 197);             
+transition: 0.9s; 
+display: flex;
+justify-content: space-between;
+padding: 30px 60px;
+
+
+}
+header nav a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.inicio {
+background-color: rgb(241, 169, 0);
+padding-bottom: 300px;
+
+}
+
+.img-inicio {
+  padding: 0%;
+    display: block;
+    margin: 0% auto;
+
+ }
+
+
+.buton:hover  { 
+  padding: 10px;
+  transition: 0.9s;
+  border-radius: 10;
+ 
+
+
+}
+
+s
+.buton{
+  background-color: rgb(119, 180, 62);
+  border-radius: 10px;
+
+}
