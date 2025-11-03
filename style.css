@@ -1,4 +1,33 @@
 
+.l{
+  display: block; /* Asegura que el botón actúe como un bloque */
+  margin-left: auto; /* Centra el botón moviendo el margen izquierdo a 50% */
+  margin-right: auto; /* Centra el botón moviendo el margen derecho a 50% */
+  padding: 20px;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+  .tr{
+background-color:aqua;
+text-align: center;
+font-weight: 700;
+font-size: 50px;
+}
+
+.r{
+  background-color: aqua;
+
+}
+
+.b:hover{
+  padding: 20px;
+  transition: 0.9s; 
+  background-color: #ffe600b0; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
 .rt{
   text-align: center;
   font-size: 30px ;
@@ -13,7 +42,7 @@
 .st{
 
   text-align: center;
- font-size: 100px ;
+  font-size: 100px ;
   font-weight: 700;
 
 }
@@ -21,8 +50,6 @@
 button{  
   transition:  0.3s ;
   background-color: rgb(59, 179, 89);
-
-
 }
 
 header {
@@ -33,19 +60,16 @@ display: flex;
 justify-content: space-between;
 padding: 30px 60px;
 
-
-
 }
+
 header nav a {
   color: black;
   text-decoration: none;
-
-
 }
 
 .inicio {
 background-color: rgb(241, 169, 0);
-padding-bottom: 100px;
+padding-bottom: 80px;
 
 }
 
@@ -54,17 +78,13 @@ padding-bottom: 100px;
     display: block;
     margin: 0% auto;
 
- }
+}
 
-ss
 .buton:hover  { 
   padding: 10px;
   transition: 0.9s; /* transision al boton */
   background-color: #ff0303; /* al pasar el maus se pone rojo */
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
- 
-
 
 }
 
@@ -73,13 +93,10 @@ ss
   background-color: rgb(119, 180, 62);
   border-radius: 30px;
   padding: 5px;
-
 }
 
 .pr{
   text-align: center;
   font-weight: 700;
   font-size: 50px;
-  
-  
 }
